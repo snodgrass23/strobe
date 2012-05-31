@@ -1,0 +1,17 @@
+{
+  "name": "strobe",
+  "version": "0.0.1",
+  "description": "adds simple flash messaging into expressjs app",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skookum/strobe"
+  },
+  "author": {
+    "name": "Jim Snodgrass",
+    "email": "jim@skookum.com"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
