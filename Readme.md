@@ -1,31 +1,20 @@
 
-# Restfuljs
+# Strobe
 
-  quick and easy restful responses for expressjs apps
+  adds simple flash messaging into expressjs app
   
 # Installation
 
-  npm install restfuljs
+  `npm install strobe`
   
 # Quick Start
 
   add to express app middleware:
   
-  app.use(require('restfuljs').response);
+  `app.use(require('strobe').flash);`
 
 
 # Example uses
-
-as direct callback to mongoose query:
   
-  models.user.findById(id, res.tful);
+  `req.flash("error", "this is my error message")`
 
-
-another mongoose query callback example:
-  
-  user.save(res.tful);
-
-
-manual call:
-  
-  res.tful(error, response)
